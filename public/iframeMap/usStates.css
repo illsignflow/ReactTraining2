@@ -1,0 +1,86 @@
+/*Header Styles*/
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Body Styles*/
+body {
+    border: 5px solid black;
+    border-style: double;
+    border-width: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+/*SVG Styles*/
+svg {
+    position: relative;
+    width: 87vw;
+    height: 93vh;
+}
+
+/*Modal Content Styles*/
+img {
+    width: 100%;
+    height: 100%;
+}
+
+div.w3-modal {
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+div.w3-container {
+    font-size: small;
+}
+
+div.w3-containerText {
+    border: solid;
+    border-left: none;
+    border-right: none;
+    font-size: large;
+    text-align: center;
+}
+
+/*SVG Hover Fill*/
+path#ma:hover, path#hi:hover, path#wy:hover, path#tx:hover, path#sc:hover {
+    fill: blue;
+}
+
+path#nh:hover, path#id:hover, path#co:hover, path#ms:hover, path#ak:hover {
+    fill:red;
+}
+
+path#mn:hover, path#la:hover, path#sd:hover, path#mi:hover, path#az:hover {
+    fill: purple;
+}
+
+path#mt:hover, path#oh:hover, path#md:hover, path#fl:hover, path#nm:hover {
+    fill: green;
+}
+
+path#nd:hover, path#ar:hover, path#ri:hover, path#ok:hover, path#nc:hover {
+    fill: yellow;
+}
+
+path#wa:hover, path#va:hover, path#ia:hover, path#ks:hover, path#me:hover {
+    fill: orange;
+}
+
+path#or:hover, path#al:hover, path#wi:hover, path#pa:hover, path#ct:hover {
+    fill: fuchsia;
+}
+
+path#ca:hover, path#in:hover, path#de:hover, path#tn:hover, path#ne:hover {
+    fill: limegreen;
+}
+
+path#nv:hover, path#il:hover, path#nj:hover, path#vt:hover, path#wv:hover {
+    fill: turquoise;
+}
+
+path#ut:hover, path#ga:hover, path#ny:hover, path#mo:hover, path#ky:hover {
+    fill: goldenrod;
+}
+
